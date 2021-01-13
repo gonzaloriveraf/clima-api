@@ -12,7 +12,7 @@ width: 100vw	;
 height: 100vh;
 background-color: #f8f8f8;
 background-image: /*  url('../img/bg/Trazado45.svg'), url('../img/bg/Trazado44.svg'), url('../img/bg/Trazado43.svg'),*/ linear-gradient(to right,  rgba(64,78,84,1)  10%, rgba(44,83,100,1) 100%) ;
-background-position: bottom 40vh center /* left 10vw  , bottom 30vh left -5vh, bottom 25vh left -10vh, center center*/ ;
+background-position: bottom center /* left 10vw  , bottom 30vh left -5vh, bottom 25vh left -10vh, center center*/ ;
 background-repeat: no-repeat, no-repeat, no-repeat;
 background-size: cover; 
 }
