@@ -42,6 +42,17 @@ background-size: cover;
 	position: fixed;
 }
 
+.principaldata {
+    background: rgba( 255, 255, 255, 0.25 );
+	box-shadow: 0 8px 32px 0 rgb(62 62 62 / 37%);
+    backdrop-filter: blur( 4px );
+    -webkit-backdrop-filter: blur( 4px );
+    border-radius: 10px;
+    /* border: 1px solid rgba( 255, 255, 255, 0.18 ); */
+    padding: 1em;
+    margin: auto;
+}
+
 #ciudades::-moz-focus-inner {
 	border: 0;
 }
@@ -75,9 +86,9 @@ font-family: 'Raleway', sans-serif;
 #mostrarlista {
 color: #fff;
 border-radius: 80px;
-background: linear-gradient(145deg, #253a5a, #20314c);
+/* background: linear-gradient(145deg, #253a5a, #20314c);
 box-shadow:  7px 7px 15px #1b2940,
-             -7px -7px 15px #2b4368;
+             -7px -7px 15px #2b4368; */
 
 }
 
@@ -88,7 +99,7 @@ font-style: normal;
 #contenido h1 {
 
 font-weight: 700;
-font-size: 1.6em;	
+font-size: 1.3em;	
 }
 #contenido h2 {
 margin-top: 1.5em;	
