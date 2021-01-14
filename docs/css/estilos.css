@@ -80,7 +80,10 @@ margin: 1em 0em;
 
 #contenido {
 color: #fff;	
-font-family: 'Raleway', sans-serif;
+/*font-family: 'Raleway', sans-serif;*/
+/* font-family: 'Hind Siliguri', sans-serif;*/
+font-family: 'Quicksand', sans-serif;
+
 }
 
 #mostrarlista {
@@ -116,7 +119,10 @@ font-size: 1.5em;
 
 #nextdays {
 background-color: #fff;	
-font-family: 'Raleway', sans-serif;	
+/*font-family: 'Raleway', sans-serif;	*/
+/* font-family: 'Hind Siliguri', sans-serif; */ 
+font-family: 'Quicksand', sans-serif;
+
 padding: 1em;
 border-radius: 20px;
 box-shadow: 5px -10px 20px rgba(91, 81, 81, .16);
