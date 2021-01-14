@@ -11,8 +11,8 @@ body {
 width: 100vw	;
 height: 100vh;
 background-color: #f8f8f8;
-background-image: /*  url('../img/bg/Trazado45.svg'), url('../img/bg/Trazado44.svg'), url('../img/bg/Trazado43.svg'),*/ linear-gradient(to right,  rgba(64,78,84,1)  10%, rgba(44,83,100,1) 100%) ;
-background-position: bottom center /* left 10vw  , bottom 30vh left -5vh, bottom 25vh left -10vh, center center*/ ;
+background-image:   url('../img/bg/fondo.svg');
+background-position: bottom 30vh center ;
 background-repeat: no-repeat, no-repeat, no-repeat;
 background-size: cover; 
 }
@@ -74,10 +74,10 @@ font-family: 'Raleway', sans-serif;
 
 #mostrarlista {
 color: #fff;
-border-radius: 55px;
-background: linear-gradient(145deg, #2f5667, #284856);
-box-shadow:  10px 10px 20px #213d49, 
-             -10px -10px 20px #376377;
+border-radius: 80px;
+background: linear-gradient(145deg, #253a5a, #20314c);
+box-shadow:  7px 7px 15px #1b2940,
+             -7px -7px 15px #2b4368;
 
 }
 

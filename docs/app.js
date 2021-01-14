@@ -155,8 +155,9 @@ function mostrarValue() {
         console.log(data); 
         console.log(data.timezone); 
         console.log(data.daily[0].temp.min)
-        
-        document.querySelector('#today h4').textContent= data.daily[0].temp.min + ' / ' + data.daily[0].temp.max ;
+
+            
+        document.querySelector('#today h4').textContent= data.daily[0].temp.min + '°' +  ' / ' + data.daily[0].temp.max + '°';
     
         const dailyItem  = data.daily
         console.log(dailyItem); 
