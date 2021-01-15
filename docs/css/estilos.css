@@ -15,7 +15,7 @@ background-color: #f8f8f8;
 background-image:   url('../img/bg/fondo-c.svg');
 background-position: bottom 40vh center ;
 background-repeat: no-repeat;
-background-size: initial; 
+background-size: cover; 
 }
 #app {
 position: fixed;	
