@@ -13,10 +13,37 @@
     const hoy = fecha.getDate() + ' ';
     const meses = ['enero', 'febrero', 'marzo', 'abril', 'mayo', 'junio', 'julio', 'agosto', 'setiembre', 'octubre', 'noviembre', 'diciembre'];
     const mes = meses[fecha.getMonth()] + ' ';
-    const hora = fecha.getHours();
+    const hora = fecha.getHours(2);
     const minutos =  fecha.getMinutes();
-    const ciudad = ['Santiago', 'Coquimbo' , 'Valparaiso', 'Talca', 'Antofagasta', 'Calama', 'Osorno', 'Futrono','Puerto Montt', 'Viña del Mar', 'Puerto Varas' ]
+    const ciudad = ['Santiago', 'Coquimbo' , 'Valparaiso', 'Talca', 'Antofagasta', 'Calama', 'Osorno', 'Futrono','Puerto Montt', 'Viña del Mar', 'Puerto Varas', 'Los Angeles' ]
     const listaCiudades = document.getElementById('ciudades')
+
+    const body =  document.querySelector('body')  
+
+    
+    if (hora < 5) {
+      body.setAttribute('style' , 'background-image: url("img/bg/noche.svg")')   
+    }
+ 
+    if ( hora > 5) {
+    body.setAttribute('style' , 'background-image: url("img/bg/manana.svg")')  
+
+    } 
+
+    
+    if (hora < 21) {
+
+      body.setAttribute('style' , 'background-image: url("img/bg/tarde.svg")')   
+
+    }
+
+    else {
+
+      body.setAttribute('style' , 'background-image: url("img/bg/noche.svg")')    
+
+    }
+
+    
 
 
     
@@ -54,10 +81,6 @@
       
 
 function mostrarValue() {
-
-
-
-
 
 
 }
@@ -107,6 +130,8 @@ function mostrarValue() {
 
         else { document.querySelector('.fecha').textContent  = diasemana    + hoy  + 'de '  + mes  + hora+':'+  minutos
     }
+
+
 
     const temperatura = data.main.feels_like
     const temperaturaAprox =  Math.round(temperatura);
