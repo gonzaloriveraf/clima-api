@@ -15,7 +15,7 @@
     const mes = meses[fecha.getMonth()] + ' ';
     const hora = fecha.getHours();
     const minutos =  fecha.getMinutes();
-    const ciudad = ['Santiago', 'Coquimbo' , 'Valparaiso', 'Talca', 'Antofagasta', 'Calama', 'Osorno', 'Futrono','Puerto Montt', 'Viña del Mar']
+    const ciudad = ['Santiago', 'Coquimbo' , 'Valparaiso', 'Talca', 'Antofagasta', 'Calama', 'Osorno', 'Futrono','Puerto Montt', 'Viña del Mar', 'Puerto Varas' ]
     const listaCiudades = document.getElementById('ciudades')
 
 
@@ -47,6 +47,9 @@
     const cities = document.querySelectorAll('.city') 
 
       document.getElementById('mostrarlista').addEventListener('click', mostrarLista);
+      listaCiudades.addEventListener('change', mostrarLista);
+   
+      document.getElementById('cerrarlista').addEventListener('click', mostrarLista);
       listaCiudades.addEventListener('change', mostrarLista);
       
 

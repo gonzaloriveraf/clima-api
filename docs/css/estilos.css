@@ -12,7 +12,7 @@ width: 100vw	;
 height: 100vh;
 background-color: #f8f8f8;
 /*background-image:   url('../img/bg/fondo.svg');*/
-background-image:   url('../img/bg/fondo-b.svg');
+background-image:   url('../img/bg/fondo-c.svg');
 background-position: bottom 40vh center ;
 background-repeat: no-repeat, no-repeat, no-repeat;
 background-size: cover; 
@@ -88,17 +88,10 @@ font-family: 'Quicksand', sans-serif;
 }
 
 #mostrarlista {
-color: #fff;
-border-radius: 80px;
-/*  background: linear-gradient(145deg, #253a5a, #20314c);
-box-shadow:  7px 7px 15px #1b2940,
-			 -7px -7px 15px #2b4368;  */ 
-			 
-border-radius: 83px;
-background: linear-gradient(145deg, #76728a, #636074);
-box-shadow:  11px 11px 22px #5e5b6e,
-			-11px -11px 22px #7f7b94;			 
-
+    color: #fff;
+    border-radius: 200px;
+    background: linear-gradient(145deg, rgb(240 240 240 / 21%), rgb(202 202 202 / 49%));
+    box-shadow: 10px 10px 20px rgb(190 190 190 / 38%), -10px -10px 20px hsl(0deg 0% 100% / 36%);
 }
 #contenido .fecha {
 font-style: normal;
@@ -109,7 +102,7 @@ font-size: 1.3em;
 }
 #contenido h2 {
 margin-top: 1.1em;
-font-weight: 200;
+font-weight: 600;
 font-size: 4em;	
 }
 #contenido h5 {
