@@ -18,28 +18,28 @@
     const ciudad = ['Santiago', 'Coquimbo' , 'Valparaiso', 'Talca', 'Antofagasta', 'Calama', 'Osorno', 'Futrono','Puerto Montt', 'Viña del Mar', 'Puerto Varas', 'Los Angeles' ]
     const listaCiudades = document.getElementById('ciudades')
 
-    const body =  document.querySelector('body')  
+    const divApp =  document.querySelector('#app')  
 
     
     if (hora < 5) {
-      body.setAttribute('style' , 'background-image: url("img/bg/noche.svg")')   
+      divApp.setAttribute('style' , 'background-image: url("img/bg/noche.svg")')   
     }
  
     if ( hora > 5) {
-    body.setAttribute('style' , 'background-image: url("img/bg/manana.svg")')  
+    divApp.setAttribute('style' , 'background-image: url("img/bg/manana.svg")')  
 
     } 
 
     
     if (hora < 21) {
 
-      body.setAttribute('style' , 'background-image: url("img/bg/tarde.svg")')   
+      divApp.setAttribute('style' , 'background-image: url("img/bg/tarde.svg")')   
 
     }
 
     else {
 
-      body.setAttribute('style' , 'background-image: url("img/bg/noche.svg")')    
+      divApp.setAttribute('style' , 'background-image: url("img/bg/noche.svg")')    
 
     }
 
