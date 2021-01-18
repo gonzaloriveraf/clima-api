@@ -12,11 +12,10 @@ width: 100vw	;
 height: 100vh;
 background-color: #f8f8f8;
 /*background-image:   url('../img/bg/fondo.svg');*/
-background-image:   url('../img/bg/fondo-c.svg');
-background-position: bottom 40vh center ;
+/* background-image:   url('../img/bg/fondo-c.svg'); */
+background-position: top center ;
 background-repeat: no-repeat;
-background-size:cover; 
-position: fixed;	
+background-size: contain; 	
 }
 
 

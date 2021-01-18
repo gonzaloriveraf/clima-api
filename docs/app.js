@@ -13,13 +13,32 @@
     const hoy = fecha.getDate() + ' ';
     const meses = ['enero', 'febrero', 'marzo', 'abril', 'mayo', 'junio', 'julio', 'agosto', 'setiembre', 'octubre', 'noviembre', 'diciembre'];
     const mes = meses[fecha.getMonth()] + ' ';
-    const hora = fecha.getHours(2);
+    const hora = fecha.getHours();
     const minutos =  fecha.getMinutes();
     const ciudad = ['Santiago', 'Coquimbo' , 'Valparaiso', 'Talca', 'Antofagasta', 'Calama', 'Osorno', 'Futrono','Puerto Montt', 'Viña del Mar', 'Puerto Varas', 'Los Angeles' ]
     const listaCiudades = document.getElementById('ciudades')
 
     const divApp =  document.querySelector('#app')  
 
+
+    switch (true) {
+      case (hora >= 12 && hora < 21):
+        divApp.setAttribute('style' , 'background-image: url("img/bg/tarde.svg")')  
+          break;
+      case (hora > 5 && hora < 12 ):
+        divApp.setAttribute('style' , 'background-image: url("img/bg/manana.svg")')  
+          break;
+      case (hora >= 21 && hora <= 5):
+        divApp.setAttribute('style' , 'background-image: url("img/bg/noche.svg")')  
+          break;
+      default:
+        divApp.setAttribute('style' , 'background-image: url("img/bg/tarse.svg")')  
+          break;
+  }
+
+
+
+/*
     
     if (hora < 5) {
       divApp.setAttribute('style' , 'background-image: url("img/bg/noche.svg")')   
@@ -42,11 +61,7 @@
       divApp.setAttribute('style' , 'background-image: url("img/bg/noche.svg")')    
 
     }
-
-    
-
-
-    
+  */
     ciudad.forEach(ciudadeslista)
     function ciudadeslista(city, index){
       const createoption = document.createElement('input');
