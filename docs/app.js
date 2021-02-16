@@ -28,12 +28,10 @@
       case (hora > 5 && hora < 12 ):
         divApp.setAttribute('style' , 'background-image: url("img/bg/manana.svg")')  
           break;
-      case (hora >= 21 && hora <= 5):
-        divApp.setAttribute('style' , 'background-image: url("img/bg/noche.svg")')  
-          break;
+     
       default:
-        divApp.setAttribute('style' , 'background-image: url("img/bg/tarse.svg")')  
-          break;
+        divApp.setAttribute('style' , 'background-image: url("img/bg/noche.svg")')  
+
   }
 
 
