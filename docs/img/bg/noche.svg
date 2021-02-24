@@ -1,43 +1,60 @@
 <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="4051.508" height="5177.767" viewBox="0 0 4051.508 5177.767">
   <defs>
-    <linearGradient id="linear-gradient" y1="0.55" x2="0.961" y2="0.249" gradientUnits="objectBoundingBox">
-      <stop offset="0" stop-color="#f0846e"/>
-      <stop offset="1" stop-color="#cb5c90"/>
-    </linearGradient>
-    <clipPath id="clip-path">
-      <path id="Trazado_75" data-name="Trazado 75" d="M0,0H4827.171s788.839,2127.181,0,4050.189c-.861,2.968-4827.171,0-4827.171,0Z" transform="translate(4051.508 0) rotate(90)" fill="url(#linear-gradient)"/>
-    </clipPath>
-    <linearGradient id="linear-gradient-2" x1="0.768" y1="0.461" x2="0.159" y2="0.452" gradientUnits="objectBoundingBox">
+    <linearGradient id="linear-gradient" x1="0.5" x2="0.5" y2="1" gradientUnits="objectBoundingBox">
       <stop offset="0" stop-color="#6e3483"/>
       <stop offset="1" stop-color="#391b79"/>
     </linearGradient>
-    <linearGradient id="linear-gradient-3" x1="0.51" y1="-0.103" x2="0.441" y2="0.359" xlink:href="#linear-gradient-2"/>
-    <linearGradient id="linear-gradient-4" x1="0.462" y1="0.309" x2="0.5" y2="0.905" xlink:href="#linear-gradient-2"/>
+    <clipPath id="clip-path">
+      <path id="Trazado_94" data-name="Trazado 94" d="M0,0H4827.171s788.839,2127.181,0,4050.189c-.861,2.968-4827.171,0-4827.171,0Z" transform="translate(4051.508 -38) rotate(90)" fill="url(#linear-gradient)"/>
+    </clipPath>
+    <linearGradient id="linear-gradient-2" x1="-0.17" y1="0.468" x2="0.985" y2="0.221" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#20323e"/>
+      <stop offset="1" stop-color="#7b465f"/>
+    </linearGradient>
+    <linearGradient id="linear-gradient-3" x1="-0.056" y1="-0.132" x2="1.122" y2="1" xlink:href="#linear-gradient-2"/>
+    <linearGradient id="linear-gradient-4" x1="0" y1="-0.467" x2="0.581" y2="0.76" xlink:href="#linear-gradient-2"/>
   </defs>
-  <g id="noche" transform="translate(-0.001)" clip-path="url(#clip-path)">
-    <g id="Grupo_20" data-name="Grupo 20" transform="translate(-861.675 -143.088)">
-      <path id="Trazado_71" data-name="Trazado 71" d="M0,0H5029.761s821.946,2235,0,4255.474c18.759,27.021-5029.761,0-5029.761,0Z" transform="translate(4977.437) rotate(90)" fill="url(#linear-gradient-2)"/>
-      <path id="Unión_4" data-name="Unión 4" d="M1048.627,1982.057a14,14,0,0,1-11.012-22.644l154.7-197.069H8.245A18,18,0,0,1-5.9,1733.217L1356.275,1.153a18,18,0,0,1,28.3,0l595.688,757.44,422.494-538.207a14,14,0,0,1,22.025,0l554.6,706.5L3255.846,575.2c60.388-76.818,176.665-76.818,237.053,0l671.273,853.907c77.868,99.055,7.384,244.376-118.528,244.376H3565.466l224.452,285.926a14,14,0,0,1-11.012,22.644Z" transform="translate(0 2157.282)" opacity="0.1"/>
-      <path id="Trazado_73" data-name="Trazado 73" d="M3629.246-52.761c-721.385-92.485-1553.2,322.2-1553.2,322.2s-2330.254,971.1-2053.175,971.1l4029.387,50.481c277.079,0,279.285-209.643,279.285-486.721V785C4331.546,507.92,4350.63,39.725,3629.246-52.761Z" transform="translate(1066.782 3525.156)" fill="url(#linear-gradient-3)"/>
-      <path id="Trazado_74" data-name="Trazado 74" d="M810.784-50.684c832.772-106.766,1793.02,371.95,1793.02,371.95S6083.781,1993.774,5763.919,1993.774L911.99,2159.417C592.128,2159.417.043,1258.568.043,938.707V916.431C.043,596.57-21.988,56.082,810.784-50.684Z" transform="translate(124.502 3313.279)" fill="url(#linear-gradient-4)"/>
+  <g id="noche" transform="translate(0 38)" clip-path="url(#clip-path)">
+    <g id="Grupo_36" data-name="Grupo 36" transform="translate(0 -245.987)">
+      <path id="Trazado_90" data-name="Trazado 90" d="M0,0H4775.208s780.348,2121.886,0,4040.106c17.81,25.653-4775.208,0-4775.208,0Z" transform="translate(4051.508) rotate(90)" fill="url(#linear-gradient-2)"/>
     </g>
-    <g id="Grupo_21" data-name="Grupo 21" transform="translate(238.859 118.304)" opacity="0.6">
+    <path id="Trazado_92" data-name="Trazado 92" d="M3709.141,384.035c994.869,0,3503,431.154,2327.822,1313.916C4843.693,2594.305,2194.1,1539.808,27.542,2836.578,27.542,826.742,1699.3,384.035,3709.141,384.035Z" transform="translate(-3754.697 2953.797)" fill="url(#linear-gradient-3)"/>
+    <path id="Trazado_93" data-name="Trazado 93" d="M3050.532,384.035c816.9,0,2950.1,434.688,2381.93,1163.661C3642.193,3166.443,1806.516,1333.049,27.542,2397.838,27.542,747.545,1400.239,384.035,3050.532,384.035Z" transform="translate(-817.815 3065.497)" fill="url(#linear-gradient-4)"/>
+    <g id="Grupo_37" data-name="Grupo 37" transform="translate(3500.703 3494.162)">
+      <path id="Polígono_22" data-name="Polígono 22" d="M74.014,0l74.014,134.259H0Z" transform="translate(0 65.408)" fill="#453a4b"/>
+      <path id="Polígono_23" data-name="Polígono 23" d="M67.129,0l67.129,117.046H0Z" transform="translate(6.885 37.868)" fill="#453a4b"/>
+      <path id="Polígono_24" data-name="Polígono 24" d="M49.917,0,99.833,89.506H0Z" transform="translate(24.098 0)" fill="#453a4b"/>
+    </g>
+    <g id="Grupo_39" data-name="Grupo 39" transform="translate(137.347 3163.679)">
+      <path id="Polígono_28" data-name="Polígono 28" d="M74.014,0l74.014,134.259H0Z" transform="translate(0 65.408)" fill="#453a4b"/>
+      <path id="Polígono_29" data-name="Polígono 29" d="M67.129,0l67.129,117.046H0Z" transform="translate(6.885 37.868)" fill="#453a4b"/>
+      <path id="Polígono_30" data-name="Polígono 30" d="M49.917,0,99.833,89.506H0Z" transform="translate(24.098)" fill="#453a4b"/>
+    </g>
+    <g id="Grupo_40" data-name="Grupo 40" transform="translate(428.976 -167.497)">
+      <ellipse id="Elipse_28" data-name="Elipse 28" cx="471.5" cy="475.5" rx="471.5" ry="475.5" transform="translate(2276.979 1074.533)" fill="#ddeabe" opacity="0.05"/>
+      <ellipse id="Elipse_27" data-name="Elipse 27" cx="290.5" cy="292.5" rx="290.5" ry="292.5" transform="translate(2457.979 1257.533)" fill="#ddeabe" opacity="0.05"/>
+      <path id="Sustracción_3" data-name="Sustracción 3" d="M41.754,289.87A141.949,141.949,0,0,1,0,283.623c60.755-18.679,101.574-74.413,101.574-138.688S60.755,24.925,0,6.246A141.933,141.933,0,0,1,121.891,24.753,144.735,144.735,0,0,1,143.1,42.45a145.095,145.095,0,0,1,39.068,73.275,147.942,147.942,0,0,1,0,58.419A145.172,145.172,0,0,1,143.1,247.418a144.787,144.787,0,0,1-21.212,17.7A142.911,142.911,0,0,1,97.544,278.48a141.5,141.5,0,0,1-55.79,11.39Z" transform="translate(2890.647 1597.43) rotate(129)" fill="#ddeabe"/>
+    </g>
+    <g id="Grupo_41" data-name="Grupo 41" transform="translate(285.156 281.279)" opacity="0.8">
       <ellipse id="Elipse_10" data-name="Elipse 10" cx="10" cy="15.5" rx="10" ry="15.5" transform="translate(0.22 491.756)" fill="#fff"/>
-      <circle id="Elipse_11" data-name="Elipse 11" cx="12.636" cy="12.636" r="12.636" transform="matrix(-0.966, 0.259, -0.259, -0.966, 3491.274, 1218.986)" fill="#fff"/>
       <ellipse id="Elipse_12" data-name="Elipse 12" cx="16" cy="10.5" rx="16" ry="10.5" transform="translate(522.22 917.756)" fill="#fff"/>
-      <circle id="Elipse_13" data-name="Elipse 13" cx="12.636" cy="12.636" r="12.636" transform="matrix(-0.966, 0.259, -0.259, -0.966, 2867.43, 941.353)" fill="#fff"/>
-      <circle id="Elipse_14" data-name="Elipse 14" cx="10.5" cy="10.5" r="10.5" transform="translate(439.22 202.756)" fill="#fff"/>
-      <circle id="Elipse_15" data-name="Elipse 15" cx="12.636" cy="12.636" r="12.636" transform="matrix(-0.966, 0.259, -0.259, -0.966, 3139.293, 1614.186)" fill="#fff"/>
+      <circle id="Elipse_14" data-name="Elipse 14" cx="19.5" cy="19.5" r="19.5" transform="translate(430.22 193.756)" fill="#fff"/>
+      <circle id="Elipse_35" data-name="Elipse 35" cx="19.5" cy="19.5" r="19.5" transform="translate(3069.22 154.756)" fill="#fff"/>
+      <circle id="Elipse_15" data-name="Elipse 15" cx="12.636" cy="12.636" r="12.636" transform="matrix(-0.966, 0.259, -0.259, -0.966, 3036.293, 2497.186)" fill="#fff"/>
       <circle id="Elipse_16" data-name="Elipse 16" cx="10.5" cy="10.5" r="10.5" transform="translate(1466.22 749.756)" fill="#fff"/>
+      <circle id="Elipse_36" data-name="Elipse 36" cx="10.5" cy="10.5" r="10.5" transform="translate(3544.22 -123.244)" fill="#fff"/>
       <circle id="Elipse_17" data-name="Elipse 17" cx="12.636" cy="12.636" r="12.636" transform="matrix(-0.966, 0.259, -0.259, -0.966, 2009.995, 1354.251)" fill="#fff"/>
-      <ellipse id="Elipse_18" data-name="Elipse 18" cx="8.5" cy="12.5" rx="8.5" ry="12.5" transform="translate(2818.22 275.756)" fill="#fff"/>
       <circle id="Elipse_19" data-name="Elipse 19" cx="12.636" cy="12.636" r="12.636" transform="matrix(-0.966, 0.259, -0.259, -0.966, 824.99, 2155.808)" fill="#fff"/>
       <circle id="Elipse_20" data-name="Elipse 20" cx="15" cy="15" r="15" transform="translate(3211.221 1723.756)" fill="#fff"/>
-      <circle id="Elipse_21" data-name="Elipse 21" cx="12.636" cy="12.636" r="12.636" transform="matrix(-0.966, 0.259, -0.259, -0.966, 58.306, 856.806)" fill="#fff"/>
+      <circle id="Elipse_21" data-name="Elipse 21" cx="17.636" cy="17.636" r="17.636" transform="matrix(-0.966, 0.259, -0.259, -0.966, 64.43, 860.342)" fill="#fff"/>
       <ellipse id="Elipse_22" data-name="Elipse 22" cx="13" cy="8.5" rx="13" ry="8.5" transform="translate(1637.22 -0.244)" fill="#fff"/>
-      <circle id="Elipse_23" data-name="Elipse 23" cx="12.636" cy="12.636" r="12.636" transform="matrix(-0.966, 0.259, -0.259, -0.966, 2032.078, 2120.176)" fill="#fff"/>
-      <ellipse id="Elipse_24" data-name="Elipse 24" cx="14.5" cy="9.5" rx="14.5" ry="9.5" transform="translate(1060.221 1284.756)" fill="#fff"/>
-      <circle id="Elipse_25" data-name="Elipse 25" cx="12.636" cy="12.636" r="12.636" transform="matrix(-0.966, 0.259, -0.259, -0.966, 2259.949, 724.749)" fill="#fff"/>
+      <circle id="Elipse_23" data-name="Elipse 23" cx="26.636" cy="26.636" r="26.636" transform="matrix(-0.966, 0.259, -0.259, -0.966, 2049.225, 2130.075)" fill="#fff"/>
+      <ellipse id="Elipse_24" data-name="Elipse 24" cx="35.727" cy="35.584" rx="35.727" ry="35.584" transform="translate(1038.994 1258.672)" fill="#fff"/>
+    </g>
+    <g id="Grupo_43" data-name="Grupo 43" transform="translate(887.819 4230.273)">
+      <path id="Polígono_10" data-name="Polígono 10" d="M223.176,0,446.351,400.483H0Z" transform="translate(-39 154.357)" fill="#453a4b"/>
+      <path id="Polígono_11" data-name="Polígono 11" d="M166.963,0,333.926,292.615H0Z" transform="translate(17.213 89.506)" fill="#453a4b"/>
+      <path id="Polígono_12" data-name="Polígono 12" d="M89.652,0l89.653,154.88H0Z" transform="translate(94.523 31)" fill="#453a4b"/>
     </g>
   </g>
 </svg>
