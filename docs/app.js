@@ -145,6 +145,8 @@ function mostrarValue() {
     }
 
 
+    const icontoday = data.weather[0].icon 
+    console.log(icontoday)
 
     const temperatura = data.main.feels_like
     const temperaturaAprox =  Math.round(temperatura);
@@ -184,6 +186,9 @@ function mostrarValue() {
         document.querySelector('#today h2').textContent= temperaturaAprox + '°'; 
         
         document.querySelector('#today h5').textContent= descripcion; 
+
+        document.querySelector('#today img').setAttribute('src',  'img/' + icontoday + '.svg'  )
+
 
          
 
