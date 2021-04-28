@@ -151,8 +151,8 @@ margin-top: .1em;
 font-weight: 600;
 font-size: 4em;	
 }
-#contenido h5 {
 
+#contenido h5 {
 font-weight: 400;
 font-size: 1.2em;	
 }
@@ -171,7 +171,7 @@ font-family: 'Quicksand', sans-serif;
 padding: 1em;
 border-radius: 20px;
 
-margin-top: 1em;
+margin-top: 4em;
 }
 
 .forecast li:first-of-type {
